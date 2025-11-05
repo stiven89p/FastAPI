@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-app = FastAPI(ta)
+app = FastAPI(tags="hola")
 
 @app.get("/Hola/")
 async def hola():
